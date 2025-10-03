@@ -1,17 +1,79 @@
+/* 
+
+-----------TYPOGRAPHY STYLES-----------
+
+FONT FAMILY: 'Poppins', sans-serif;
+FONT WEIGHTS: 400 / 700
+FONT SIZES: 12px / 16px / 20px / 24px / 32px / 40px / 48px / 62px
+LINE HEIGHTS: 1.2 / 1.5
+LETTER SPACING: 0 / -2px
+
+---------------COLORS---------------
+
+PRIMARY:
+- Arctic: #d0ebff
+- Sky Blue: #339af0
+- Deep Sea: #1c7ed6
+
+SECONDARY:
+- Moonlight Iris: #e5dbff
+- Lavender: #9775fa
+- Velvet Night: #7048e8
+
+TERTIARY:
+- Dawn: #ffe8cc
+- Pumpkin: #ff922b
+- Lava: #f76707
+
+GREY:
+- Pebble: #f1f3f5
+- Slate: #495057
+- Graphite: #212529
+
+
+*/
+
+
 h1 {
     font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    font-size: 62px;
+    font-family: 'poppins', sans-serif;
+    color: #212529;
 }
 h2 {
     font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    font-size: 48px;
+    font-family: 'poppins', sans-serif;
+    color: #212529;
 }
 h3 {
     font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    font-size: 40px;
+    font-family: 'poppins', sans-serif;
+    color: #212529;
 }
 p {
     font-weight: 400;
+    line-height: 1.5;
+    font-size: 20px;
+    font-family: 'poppins', sans-serif;
+    color: #495057;
 }
 a {
+    font-weight: 400;
     text-decoration: none;
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: 'poppins', sans-serif;
+    color: #495057;
 }
 
 ul {
