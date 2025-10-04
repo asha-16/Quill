@@ -11,71 +11,94 @@ LETTER SPACING: 0 / -2px
 ---------------COLORS---------------
 
 PRIMARY:
-- Arctic: #d0ebff
-- Sky Blue: #339af0
-- Deep Sea: #1c7ed6
+- tint: #d0ebff
+- base: #339af0
+- shade: #1c7ed6
 
 SECONDARY:
-- Moonlight Iris: #e5dbff
-- Lavender: #9775fa
-- Velvet Night: #7048e8
+- tint: #e5dbff
+- base: #9775fa
+- shade: #7048e8
 
 TERTIARY:
-- Dawn: #ffe8cc
-- Pumpkin: #ff922b
-- Lava: #f76707
+-tint: #ffe8cc
+- base: #ff922b
+- shade: #f76707
 
 GREY:
-- Pebble: #f1f3f5
-- Slate: #495057
-- Graphite: #212529
+- tint: #f1f3f5
+- base: #495057
+- shade: #212529
 
 
 */
 
 
+h1, h2, h3 {
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    font-family: 'poppins', sans-serif;
+    color: #212529;
+}
+
 h1 {
-    font-weight: 700;
     text-align: center;
-    line-height: 1.2;
-    letter-spacing: -2px;
     font-size: 62px;
-    font-family: 'poppins', sans-serif;
-    color: #212529;
 }
+
 h2 {
-    font-weight: 700;
     text-align: center;
-    line-height: 1.2;
-    letter-spacing: -2px;
     font-size: 48px;
-    font-family: 'poppins', sans-serif;
-    color: #212529;
 }
+
 h3 {
-    font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: -2px;
-    font-size: 40px;
-    font-family: 'poppins', sans-serif;
-    color: #212529;
+    font-size: 40px; 
 }
-p {
+
+p, a{
     font-weight: 400;
     line-height: 1.5;
-    font-size: 20px;
-    font-family: 'poppins', sans-serif;
-    color: #495057;
-}
-a {
-    font-weight: 400;
-    text-decoration: none;
-    line-height: 1.5;
-    font-size: 16px;
     font-family: 'poppins', sans-serif;
     color: #495057;
 }
 
+p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
 ul {
     list-style: none;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+.btn {
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+}
+
+.btn-primary:link, .btn-primary:visited {
+    color: #339af0 ;
+}
+
+.btn-primary:hover, .btn-primary:active {
+    color: #1c7ed6;
+}
+
+.btn-secondary:link, .btn-secondary:visited {
+    color: #9775fa;
+}
+
+.btn-secondary:hover, .btn-secondary:active {
+    color: #7048e8;
 }
