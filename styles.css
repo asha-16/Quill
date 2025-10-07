@@ -38,6 +38,8 @@ GREY:
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -45,6 +47,11 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #495057;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 h1, h2, h3 {
@@ -83,6 +90,11 @@ p {
 a {
     text-decoration: none;
     font-size: 16px;
+    display: inline-block;
+}
+
+span {
+    display: inline-block;
 }
 
 ul {
@@ -187,13 +199,17 @@ ul {
 }
 
 /*---------- FEATURES SECTION ---------- */
-.features-section-heading {
+.features-main-heading {
     text-align: center;
     margin-bottom: 80px;
 }
 
 .features-section {
     margin-bottom: 300px;
+}
+
+.features-sub-heading {
+    margin-bottom: 20px;
 }
 
 .feature-img {
@@ -208,10 +224,14 @@ ul {
 .cta-card {
     text-align: center;
     background-color:#339af0 ;
-    width: 1000px;
+    max-width: 1000px;
     padding: 100px 200px;
     border-radius: 25px;
+    margin: 0 auto;
+}
 
+.cta-heading {
+    margin-bottom: 30px;
 }
 
 /*---------- FOOTER SECTION ---------- */
