@@ -250,8 +250,11 @@ ul {
 .hero-section {
     height: calc(100vh - var(--nav-height));
     min-height: 400px;
-   text-align: center;
    margin-bottom: 10rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 
 .hero-heading {
@@ -260,6 +263,11 @@ ul {
 
 .hero-paragraph {
     margin-bottom: 5rem;
+}
+
+.hero-btn-container {
+    display: flex;
+    gap: 2rem;
 }
 
 /*---------- FEATURES SECTION ---------- */
@@ -285,16 +293,17 @@ ul {
 /*---------- CTA SECTION ---------- */
 .cta-section {
     margin-bottom: 30rem;
-
+    display: flex;
+    justify-content: center;
 }
 
 .cta-card {
     text-align: center;
     background-color: var(--color-primary-base);
     max-width: 1000px;
+    width: 100%;
     padding: 10rem 20rem;
     border-radius: 25px;
-    margin: 0 auto;
 }
 
 .cta-heading {
