@@ -280,6 +280,15 @@ ul {
     margin-bottom: 30rem;
 }
 
+.features-grid-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10rem;
+    column-gap: 5rem;
+    justify-items: center;
+    align-items: center;
+}
+
 .features-sub-heading {
     margin-bottom: 2rem;
 }
