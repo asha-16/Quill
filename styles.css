@@ -182,36 +182,45 @@ ul {
     color: var(--color-white);
     background-color: var(--color-primary-base) ;
     border: 2px solid var(--color-primary-base) ;
+    transition: 0.5s;
 }
 
 .btn-primary:hover, .btn-primary:active {
     color: var(--color-white);
     background-color: var(--color-primary-shade);
     border: 2px solid var(--color-primary-shade) ;
+    transform: scale(1.05,1.05);
+    box-shadow: 0px 3px 5px var(--color-grey-base);
 }
 
 .btn-primary-outline:link, .btn-primary-outline:visited {
     color: var(--color-primary-base);
     background-color: var(--color-white);
     border: 2px solid var(--color-primary-base) ;
+    transition: 0.5s;
 }
 
 .btn-primary-outline:hover, .btn-primary-outline:active {
     color: var(--color-primary-shade);
     background-color: var(--color-white) ;
     border: 2px solid var(--color-primary-shade) ;
+    transform: scale(1.05,1.05);
+    box-shadow: 0px 3px 5px var(--color-grey-base);
 }
 
 .btn-secondary:link, .btn-secondary:visited {
     color: var(--color-white);
     background-color: var(--color-secondary-base);
     border: 2px solid var(--color-secondary-base);
+    transition: 0.5s;
 }
 
 .btn-secondary:hover, .btn-secondary:active {
     color: var(--color-white);
     background-color: var(--color-secondary-shade);
     border: 2px solid var(--color-secondary-shade);
+    transform: scale(1.05,1.05);
+    box-shadow: 0px 3px 5px var(--color-grey-base);
 }
 
 .highlight {
@@ -248,6 +257,7 @@ ul {
    display: flex;
    justify-content: space-between;
    align-items: center;
+  
 }
 
 .nav-btn-container {
